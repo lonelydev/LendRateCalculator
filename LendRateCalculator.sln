@@ -14,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27B86103-DE23-4CAA-97A5-A7E37A7A880B}"
 	ProjectSection(SolutionItems) = preProject
 		nunit.runsettings = nunit.runsettings
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LendRateCalculatorTester", "LendRateCalculatorTester\LendRateCalculatorTester.csproj", "{CE54BA87-2943-45D4-861E-93F09A06CE84}"
