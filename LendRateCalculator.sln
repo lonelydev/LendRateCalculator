@@ -5,6 +5,19 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LendRateCalculator", "LendRateCalculator\LendRateCalculator.csproj", "{019562BA-57E4-4E4C-948B-0917C0A20DC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LendRateCalculatorDataAccessLayer", "LendRateCalculatorDataAccessLayer\LendRateCalculatorDataAccessLayer.csproj", "{8DD92163-E138-44AB-A9D1-7F71E2AE9C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LendRateCalculatorConsole", "LendRateCalculatorConsole\LendRateCalculatorConsole.csproj", "{AC33EE71-4022-4EA2-8877-77204541AC1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LendRateCalculatorDalTester", "LendRateCalculatorDalTester\LendRateCalculatorDalTester.csproj", "{8EE757C0-BAEE-4236-9A92-82BB1DFF91B1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27B86103-DE23-4CAA-97A5-A7E37A7A880B}"
+	ProjectSection(SolutionItems) = preProject
+		nunit.runsettings = nunit.runsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LendRateCalculatorTester", "LendRateCalculatorTester\LendRateCalculatorTester.csproj", "{CE54BA87-2943-45D4-861E-93F09A06CE84}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +28,22 @@ Global
 		{019562BA-57E4-4E4C-948B-0917C0A20DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{019562BA-57E4-4E4C-948B-0917C0A20DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{019562BA-57E4-4E4C-948B-0917C0A20DC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DD92163-E138-44AB-A9D1-7F71E2AE9C88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DD92163-E138-44AB-A9D1-7F71E2AE9C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DD92163-E138-44AB-A9D1-7F71E2AE9C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DD92163-E138-44AB-A9D1-7F71E2AE9C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC33EE71-4022-4EA2-8877-77204541AC1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC33EE71-4022-4EA2-8877-77204541AC1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC33EE71-4022-4EA2-8877-77204541AC1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC33EE71-4022-4EA2-8877-77204541AC1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE757C0-BAEE-4236-9A92-82BB1DFF91B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE757C0-BAEE-4236-9A92-82BB1DFF91B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE757C0-BAEE-4236-9A92-82BB1DFF91B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE757C0-BAEE-4236-9A92-82BB1DFF91B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE54BA87-2943-45D4-861E-93F09A06CE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE54BA87-2943-45D4-861E-93F09A06CE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE54BA87-2943-45D4-861E-93F09A06CE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE54BA87-2943-45D4-861E-93F09A06CE84}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{019562BA-57E4-4E4C-948B-0917C0A20DC9}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{AC33EE71-4022-4EA2-8877-77204541AC1B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LendRateCalculator</RootNamespace>
-    <AssemblyName>LendRateCalculator</AssemblyName>
+    <RootNamespace>LendRateCalculatorConsole</RootNamespace>
+    <AssemblyName>LendRateCalculatorConsole</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,19 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CompoundInterestCalculator.cs" />
-    <Compile Include="InvalidLoanRequest.cs" />
-    <Compile Include="InsufficientFundsException.cs" />
-    <Compile Include="IOptimalLendRateCalculator.cs" />
-    <Compile Include="OptimalLendRateCalculator.cs" />
-    <Compile Include="CalculatedOptimalLendRate.cs" />
-    <Compile Include="OptimalLendRateCalculatorFactory.cs" />
+    <Compile Include="LendRateConsole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LendRateCalculatorDataAccessLayer\LendRateCalculatorDataAccessLayer.csproj">
-      <Project>{8dd92163-e138-44ab-a9d1-7f71e2ae9c88}</Project>
-      <Name>LendRateCalculatorDataAccessLayer</Name>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LendRateCalculator\LendRateCalculator.csproj">
+      <Project>{019562ba-57e4-4e4c-948b-0917c0a20dc9}</Project>
+      <Name>LendRateCalculator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
